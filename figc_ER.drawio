@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-04T10:39:41.712Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="IU_pyvptLI3tUKRMRl4r" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-04T10:43:52.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="GHGgK_h0JviV3gN0UAwh" version="20.0.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="817" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -281,6 +281,36 @@
         </mxCell>
         <mxCell id="sykF5DhtQ7tzf-lMTkjd-77" value="1,1" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="380" y="670" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sykF5DhtQ7tzf-lMTkjd-78" value="Relationship" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="480" y="470" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sykF5DhtQ7tzf-lMTkjd-79" value="" style="endArrow=none;html=1;rounded=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="470" as="sourcePoint" />
+            <mxPoint x="540" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sykF5DhtQ7tzf-lMTkjd-80" value="" style="endArrow=none;html=1;rounded=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="sykF5DhtQ7tzf-lMTkjd-78" target="sykF5DhtQ7tzf-lMTkjd-49">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="549" as="sourcePoint" />
+            <mxPoint x="790" y="549" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="540" y="580" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sykF5DhtQ7tzf-lMTkjd-81" value="1,N" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="400" y="430" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sykF5DhtQ7tzf-lMTkjd-82" value="1,1" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="550" y="560" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sykF5DhtQ7tzf-lMTkjd-83" value="una squadra vede n giocatori" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="450" y="400" width="100" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sykF5DhtQ7tzf-lMTkjd-84" value="un giocatore vede una squadra" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="600" y="530" width="110" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
