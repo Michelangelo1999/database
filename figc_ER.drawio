@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-04T10:43:52.327Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="GHGgK_h0JviV3gN0UAwh" version="20.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-04T10:46:48.058Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="k0dK575kwAtfbcuuU5Yp" version="20.0.4" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
     <mxGraphModel dx="817" dy="963" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
@@ -311,6 +311,27 @@
         </mxCell>
         <mxCell id="sykF5DhtQ7tzf-lMTkjd-84" value="un giocatore vede una squadra" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;hachureGap=4;" vertex="1" parent="1">
           <mxGeometry x="600" y="530" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="sykF5DhtQ7tzf-lMTkjd-85" value="Storico" style="shape=rhombus;perimeter=rhombusPerimeter;whiteSpace=wrap;html=1;align=center;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="150" y="770" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sykF5DhtQ7tzf-lMTkjd-86" value="" style="endArrow=none;html=1;rounded=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=0;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="sykF5DhtQ7tzf-lMTkjd-67">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="799.4" as="sourcePoint" />
+            <mxPoint x="440" y="799" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sykF5DhtQ7tzf-lMTkjd-87" value="" style="endArrow=none;html=1;rounded=0;startSize=14;endSize=14;sourcePerimeterSpacing=8;targetPerimeterSpacing=8;curved=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="sykF5DhtQ7tzf-lMTkjd-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="770" as="sourcePoint" />
+            <mxPoint x="370" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sykF5DhtQ7tzf-lMTkjd-88" value="1,N" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="140" y="480" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="sykF5DhtQ7tzf-lMTkjd-89" value="1,N" style="text;strokeColor=none;fillColor=none;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;hachureGap=4;" vertex="1" parent="1">
+          <mxGeometry x="380" y="810" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
